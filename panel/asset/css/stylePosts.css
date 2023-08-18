@@ -1,0 +1,75 @@
+:root {
+    --purple-light: #af8e9997;
+    --purple-pale: #bdadb2;
+    --purple-color: #724856;
+}
+
+.errorText {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner-grow {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+}
+
+.container {
+    display: none;
+}
+
+.post {
+    border-color: var(--purple-light);
+    margin: 5px auto;
+}
+
+.post-h {
+    background-color: var(--purple-light);
+}
+
+.post-t {
+    color: var(--purple-color);
+}
+
+.btn {
+    background-color: var(--purple-pale);
+    border: 2px solid white;
+    color: white;
+}
+
+.btn:hover {
+    background-color: white;
+    border: 2px solid var(--purple-light);
+    color: black;
+}
+
+.card {
+    padding: 0;
+    margin-bottom: 5px;
+    border: 2px solid var(--purple-pale);
+}
+
+.card-header {
+    background-color: var(--purple-pale);
+}
+
+.modal-content {
+    background-color: var(--purple-light);
+}
+
+@media (max-width:280px) {
+    h5 {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,57 @@
+:root {
+    --primary-color: #b6a191;
+    --secondary-color: #958478;
+}
+
+.errorText {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner-grow {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+}
+
+.container {
+    display: none;
+}
+
+.table {
+    border: 1px solid var(--secondary-color);
+    margin: 5px;
+}
+
+.table th {
+    color: var(--secondary-color);
+}
+
+
+.btn:hover {
+    background-color: var(--primary-color);
+}
+
+.btn,
+.dropdown-menu {
+    border: 2px solid var(--secondary-color);
+}
+
+.dropdown-menu a:hover {
+    background-color: var(--primary-color);
+}
+
+.modal div {
+    background-color: var(--secondary-color);
+}
+
+.modal-header {
+    height: 50px;
+}
+

@@ -1,0 +1,46 @@
+:root{
+    --green-light: #959a76;
+    --green-pale: #b2b697;
+    --green-color: #ecefd8;
+}
+
+body {
+    background-color: var(--green-color);
+}
+
+.errorText {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner-grow {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+}
+
+.container {
+    display: none;
+    margin: 2px auto;
+    justify-content: space-between;
+}
+
+.card {
+margin: 10px 5px;
+padding: 0;
+border-color: var(--green-light);
+}
+
+.card-header {
+    background-color: var(--green-light);
+}
+
+.card-footer {
+    background-color: var(--green-pale);
+}
